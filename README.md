@@ -3,9 +3,7 @@ Install the released version of tensorTS
 
 ##use Dataset.py to produce the data with/without missing value
 
-##use test_csv_dimension to checkfor the dimensions
-
-##main.R--the most important function,to transfer the data to R,and to estimate the mar model.
+##main.R--the most important function,to transfer the data to R,and to estimate the mar model's correlation matrix.
 
 ##MAR_proj_method is for LSE initialization
 
@@ -15,6 +13,8 @@ Install the released version of tensorTS
 
 ##MAR_prediction is for prediction(based on the coefficient matrix)
 
-##Test_producer.py is to create the dataset we need
+##test_data_produce.py is to create the dataset we need,we save the npy and csv file for further implement
+
+##TEST.py is for test with interpolation and other imputation method.
 
 ##I also attach the test dataset.You can change it.
